@@ -94,16 +94,50 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.menu h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.menu-item p {
+    color: #ffffff;
+}
+
 .about {
     padding: 100px 0;
     text-align: center;
     background-color: #ede4d6;
 }
 
-.about p+p {
+/* .about p:nth-child(2) {
+    text-align: justify;
+} */
+
+.about p {
     text-align: justify;
 }
-
 .about h2 {
     font-size: 30px;
     margin-bottom: 20px;
