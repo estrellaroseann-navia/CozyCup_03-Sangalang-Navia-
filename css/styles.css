@@ -6,14 +6,14 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #fde353;
+    background-color: #b59c0f;
     color: #381a09;
 }
 
 header {
     background-color: #47341c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
 }
 
 header ul{
@@ -33,7 +33,7 @@ nav {
 }
 
 .Logo1 img {
-    max-width: 250px;
+    max-width: 400px;
 }
 
 nav ul {
@@ -44,18 +44,18 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #b59c0f;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #bb5011;
 }
 
 .hero {
     text-align: center;
-    padding: 150px 0;
+    padding: 5px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
     color: white;
@@ -98,6 +98,10 @@ nav a:hover {
     padding: 100px 0;
     text-align: center;
     background-color: #ede4d6;
+}
+
+.about p+p {
+    text-align: justify;
 }
 
 .about h2 {
