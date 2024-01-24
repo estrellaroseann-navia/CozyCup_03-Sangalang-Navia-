@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: cursive, handwriting;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fde353;
     color: #381a09;
 }
@@ -14,6 +14,12 @@ header {
     background-color: #47341c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+header ul{
+    margin-right: 10rem;
+    font-size: 30px;
+    text-decoration-color: #fde353;
 }
 
 nav {
