@@ -121,7 +121,11 @@ nav a:hover {
 .menu-item {
     border: 1px solid #ddd;
     padding: 20px;
-    text-align: center;
+
+}
+
+#price {
+    margin-top: 2rem;
 }
 
 .menu-item img {
