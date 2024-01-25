@@ -246,3 +246,21 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.quick-links ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.quick-links ul li {
+    display: inline-block; 
+    text-align: center;
+}
+
+.quick-links ul li a {
+    font-size: 25px;
+    text-decoration: none; 
+    color: #fde353; 
+    margin-right: 1.5rem;
+}
+
