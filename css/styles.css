@@ -208,9 +208,13 @@ nav a:hover {
 }
 
 .contact p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 40px;
 }
+
+.inline {
+    display: inline;
+  }  
 
 footer {
     font-family: Arial, sans-serif;
